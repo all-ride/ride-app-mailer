@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "ride/app": "^1.0.0",
         "ride/lib-dependency": "^1.0.0",
         "ride/lib-mailer": "^1.0.0"
     },
