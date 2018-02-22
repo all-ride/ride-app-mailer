@@ -1,0 +1,19 @@
+{
+    "dependencies": [
+        {
+            "interfaces": "ride\\service\\MailService",
+            "class": "ride\\service\\ExtendedMailService",
+            "id": "ride"
+        },
+        {
+            "interfaces": "ride\\library\\mail\\type\\MailTypeProvider",
+            "class": "ride\\application\\mail\\type\\DependencyMailTypeProvider",
+            "id": "dependency"
+        },
+        {
+            "interfaces": "ride\\library\\mail\\handler\\MailHandler",
+            "class": "ride\\library\\mail\\handler\\GenericMailHandler",
+            "id": "generic"
+        }
+    ]
+}
